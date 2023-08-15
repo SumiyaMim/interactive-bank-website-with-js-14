@@ -23,12 +23,12 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     const previousDepositTotalString = depositTotalElement.innerText;
     const previousDepositTotal = parseFloat(previousDepositTotalString);
 
-    // step-4: add numbers to set the total deposit
+    // step-4: calculate current total deposit / add numbers to set the total deposit
     const currentDepositTotal = previousDepositTotal + newDepositAmount;
     // set the deposit total
     depositTotalElement.innerText = currentDepositTotal;
 
-    // step-5: get the current balance total
+    // step-5: get the previous balance total
     const balanceTotalElement = document.getElementById('balance-total');
     const previousBalanceTotalString = balanceTotalElement.innerText;
     const previousBalanceTotal = parseFloat(previousBalanceTotalString);

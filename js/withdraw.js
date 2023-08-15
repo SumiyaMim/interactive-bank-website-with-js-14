@@ -9,8 +9,8 @@
 4-5. set total withdraw amount
 
 5. get the previous balance total
-6. calculate new balance total
-5-6. set the new balance total
+6. calculate new / current balance total
+5-6. set the new / current balance total
 
 7. clear the input field
 */
