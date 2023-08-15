@@ -5,7 +5,6 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     // step-2: set id on the html element then, get the deposit amount from the deposit input field
     // For input field use .value to the the value inside the input field
     const depositField = document.getElementById('deposit-field');
-    const depositAmount = depositField.value;
     const newDepositAmountString = depositField.value;
     const newDepositAmount = parseFloat(newDepositAmountString);
 
