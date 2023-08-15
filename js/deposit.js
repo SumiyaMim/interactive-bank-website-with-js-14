@@ -17,7 +17,7 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
        return;
     }
 
-    // step-3: get the current deposit total
+    // step-3: get the previous deposit total
     // for non-input(element other than input, textarea) use innerText to get the text
     const depositTotalElement = document.getElementById('deposit-total');
     const previousDepositTotalString = depositTotalElement.innerText;
